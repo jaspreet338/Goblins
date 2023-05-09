@@ -19,10 +19,6 @@ header {
     padding: 33px 9%;
     background: transparent;
 }
-body {
-    background: red;
-}
-
 .logo {
     font-size: 30px;
     font-weight: 700;
@@ -51,4 +47,13 @@ body {
     z-index: 10001;
     cursor: pointer;
     display: none;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
+    position:relative;
+    display:grid
 }
