@@ -62,10 +62,68 @@ header {
 }
 
 .img {
-    height: 450px;
+    height: 450;
     width: 500px;
 }
 
 section {
     padding: 0 19%;
+}
+.hero-text h5 {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.hero-text h1 {
+    font-size: 90px;
+    line-height: 1;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    margin:0 0 45px;
+}
+.hero-text h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+   font-size: 15px; 
+   color: white;
+   line-height: 1.9;
+   margin-bottom: 40px;
+}
+
+.hero-text a {
+    display: inline-block;
+    color: white;
+    background: #4d9559;
+    border:1px solid transparent;
+    padding:12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition:all .55s ease;
+}
+
+.hero-text a:hover {
+    background: transparent;
+    border:1px solid white;
+    transform: translateX(8px);
+}
+
+.hero-text a.ctaa {
+    background: transparent;
+    border: 1px solid white;
+    margin-left:20px;
+}
+
+.hero-text a.ctaa i{
+    vertical-align: middle;
+    margin-right:5px;
 }
